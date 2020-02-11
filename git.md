@@ -8,6 +8,29 @@ Local repo to remote repo : `git push`</br>
 Remote repo to local repo : `git pull`</br>
 
 ### Commands
+```
+git --version
+git init
+git add file_name
+git add -A
+git status
+git commit -m "First commit"
+git commit -a -m "Commit_message"
+git remote add origin "ssh_link"
+git pull origin master
+git push origin master
+git push origin name_of_branch
+git log
+git branch name_of_branch
+git checkout name_of_branch
+git checkout master
+git merge name_of_branch_whose_work_to_merge
+ssh-keygen
+ssh -T git@github.com
+git checkout first_eight_hexa file_name
+```
+
+### Commands explained
 `git --version` gives the version of git on the system. </br></br>
 `git init` is used to make a directory as a git local repository. </br></br>
 `git remote add origin "<ssh_link>"` or `git remote add origin "<html_link>"` used to connect our local repo to the remote repo on github. </br></br>
