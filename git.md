@@ -2,4 +2,4 @@
 
 ## Explaining the workflow
 
-Working directory to staging area '''git add'''
+Working directory to staging area 'git add'
