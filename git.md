@@ -2,7 +2,7 @@
 
 ### Explaining the workflow
 
-Working directory to staging area : `git add`\
+Working directory to staging area : `git add`</br>
 Staging area to local repo : `git commit`\
 Local repo to remote repo : `git push`\
 Remote repo to local repo : `git pull`
