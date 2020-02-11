@@ -8,7 +8,7 @@ Local repo to remote repo : `git push`</br>
 Remote repo to local repo : `git pull`</br>
 
 ### Commands
-`git --version`: gives the version of git on the system. </br></br>
+`git --version` gives the version of git on the system. </br></br>
 `git init` is used to make a directory as a git local repository. </br></br>
 `git remote add origin "<ssh_link>"` or `git remote add origin "<html_link>"` used to connect our local repo to the remote repo on github. </br></br>
 `git add <filename>` moves the file to staging area. </br></br>
