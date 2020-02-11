@@ -23,6 +23,12 @@ sudo ufw enable
 ```
 ## Step 4 - Setting up jenkins
 To set up your installation, visit Jenkins on its default port, 8080, using your server domain name or IP address:</br>
-```html
+```
 http://your_server_ip_or_domain:8080
 ```
+In the terminal window, use the cat command to display the password:</br>
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+For further commands visit</br>
+(https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04)
