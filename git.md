@@ -11,23 +11,24 @@ Remote repo to local repo : `git pull`</br>
 ```
 git --version
 git init
-git add file_name
+git add <filename>
 git add -A
 git status
-git commit -m "First commit"
-git commit -a -m "Commit_message"
-git remote add origin "ssh_link"
+git commit -m "<commit_message>"
+git commit -a -m "<commit_message>"
+git remote add origin "<html_link>"
+git remote add origin "<ssh_link>"
 git pull origin master
 git push origin master
-git push origin name_of_branch
+git push origin <branch_name>
 git log
-git branch name_of_branch
-git checkout name_of_branch
+git branch <branch_name>
+git checkout <branch_name>
 git checkout master
-git merge name_of_branch_whose_work_to_merge
+git checkout <first_eight_hexa> <file_name>
+git merge <branch_name>
 ssh-keygen
 ssh -T git@github.com
-git checkout first_eight_hexa file_name
 ```
 
 ### Commands explained
