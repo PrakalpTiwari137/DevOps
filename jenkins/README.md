@@ -53,7 +53,7 @@ Type the username and password you specified in the tomcat-users.xml file above.
 Scroll down and you will see Deploy block.</br>
 Specify the entries as follows:
 
-Context Path (required) : jenkins</br>
+Context Path (required) : /jenkins</br>
 XML configuration file URL : (leave it empty)</br>
 WAR or directory URL : (path to the jenkins.war file)</br>
 
